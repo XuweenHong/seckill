@@ -10,6 +10,7 @@ public interface SuccessSeckilledDao {
      * @param seckillId  商品id
      * @param userPhone   用户手机信息
      * @return  是否插入成功 0表示失败
+	 * 啊沙发沙发
      */
     int insertSuccessKilled(@Param("seckillId")long seckillId, @Param("userPhone")long userPhone);
 
